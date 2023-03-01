@@ -1,0 +1,8 @@
+install dependents
+npm i axios react-rotter-dom mbox mbox-react-late
+
+go to bootstrap services
+react-bootstrap.github.io
+
+copy script for installed
+npm install react-bootstrap bootstrap
