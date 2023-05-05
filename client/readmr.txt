@@ -1,0 +1,25 @@
+install dependents
+npm i axios react-rotter-dom mbox mbox-react-late
+
+go to bootstrap services
+react-bootstrap.github.io
+
+copy script for installed
+npm install react-bootstrap bootstrap
+
+
+npm start
+
+
+Как перейти на более старую версию react js
+сгенерить реакт-приложение с "текущей" версией
+
+удалить node_modules
+
+отредактировать package.json, указав нужные версии
+
+"react": "^17.0.1", "react-dom": "^17.0.1", "react-router-dom": "^6.3.0", "react-scripts": "4.0.3",
+
+-запустить npm i
+
+React Versions · 18.2.0 · 18.1.0 · 18.0.0 · 17.0.2 · 17.0.1 · 17.0.0 · 16.14.0 · 16.13.1.
