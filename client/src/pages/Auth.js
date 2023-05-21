@@ -6,7 +6,7 @@ import {LOGIN_ROUTE, REGISTRATION_ROUTE} from "../utils/consts";
 const Auth = () => {
     const location = useLocation()
     const isLogin = location.pathname === LOGIN_ROUTE
-    // console.log(location)
+    console.log(location)
     return (
         <Container
             className="d-flex justify-content-center align-items-center"
@@ -30,7 +30,7 @@ const Auth = () => {
                             </div>
                             :
                             <div>
-                                Зареєстровані ? <NavLink to={LOGIN_ROUTE}> Зайдіть </NavLink>
+                                Зареєстровані ? <NavLink to={LOGIN_ROUTE}> Welcome </NavLink>
                             </div>
                         }
                         <Button variant={"outline-success"}
